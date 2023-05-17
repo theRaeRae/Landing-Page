@@ -32,7 +32,7 @@
     /*outline: red dashed 1px;*/
 }
 
-button {
+.sign_up1 {
     background-color: rgb(57, 57, 238);
     color: white;
     font-weight: bold;
@@ -109,7 +109,7 @@ a {
 
 .third_section {
     background-color: #E5E7EB;
-    padding: 200px;
+    padding: 100px;
     padding-left: 450px;
     padding-right: 450px;
 }
@@ -133,6 +133,41 @@ a {
 }
 
 .fourth_section {
-    padding: 200px;
+    padding: 70px;
     outline: red dashed 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth_container {
+    display: flex;
+    padding: 30px;
+    width: 500px;
+    outline: red dashed 1px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.action_time_left {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action_time_left, .sign_up_text {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sign_up2 {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
 }
