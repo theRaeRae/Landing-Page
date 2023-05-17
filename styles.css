@@ -63,7 +63,6 @@ a {
     /*outline: red dashed 1px;*/
 }
 
-/*Below are for section 2*/
 .second_section {
     font-family: 'Courier New', Courier, monospace;
     padding-left: 200px;
@@ -134,22 +133,22 @@ a {
 
 .fourth_section {
     padding: 70px;
-    outline: red dashed 1px;
     display: flex;
     justify-content: center;
     align-items: center;
+    /*outline: red dashed 1px;*/
 }
 
 .fourth_container {
     display: flex;
     padding: 30px;
     width: 500px;
-    outline: red dashed 1px;
     background-color: #3882f6;
     border-radius: 10px;
     justify-content: space-between;
     align-items: center;
     align-self: center;
+    /*outline: red dashed 1px;*/
 }
 
 .action_time_left {
@@ -170,4 +169,14 @@ a {
     border: 1px solid white;
     color: white;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    font-size: 10px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1f2937;
+    justify-content: center;
 }
