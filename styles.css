@@ -1,3 +1,5 @@
+/*Section 1*/
+
 .first_section {
     background-color: #1f2937;
     padding: 0 16px;
@@ -63,6 +65,8 @@ a {
     /*outline: red dashed 1px;*/
 }
 
+/*Section 2*/
+
 .second_section {
     font-family: 'Courier New', Courier, monospace;
     padding-left: 200px;
@@ -106,6 +110,8 @@ a {
     /*outline: purple dashed 1px;*/
 }
 
+/*Section 3*/
+
 .third_section {
     background-color: #E5E7EB;
     padding: 100px;
@@ -130,6 +136,8 @@ a {
     font-size: 20px;
     /*outline: red dashed 1px;*/
 }
+
+/*Section 4*/
 
 .fourth_section {
     padding: 70px;
