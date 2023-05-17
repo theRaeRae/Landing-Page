@@ -47,12 +47,12 @@ button {
     /*outline: red dashed 1px;*/
 }
 
-img {
+.manila {
     width: 450px;
     height: 200px;
     display: flex;
-    /*outline: red dashed 1px;*/
     padding: 20px;
+    /*outline: red dashed 1px;*/
 }
 
 a {
@@ -63,7 +63,46 @@ a {
     /*outline: red dashed 1px;*/
 }
 
+/*Below are for section 2*/
 .second_section {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    outline: red dashed 1px;
+}
+
+.random_text{
+    text-align: center;
+    /*outline: gold dashed 1px;*/
+}
+ 
+.second_container {
     display: flex;
     /*outline: red dashed 1px;*/
+    justify-content: space-around;
+    
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+    margin: 20px;
+    height: 200px;
+    width: auto;
+    /*outline: red dashed 1px;*/
+}
+
+.box1, .box2, .box3, .box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*outline: blue dashed 1px;*/
+}
+
+.text_under_illustration {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    /*outline: purple dashed 1px;*/
 }
