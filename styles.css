@@ -106,3 +106,28 @@ a {
     font-size: 15px;
     /*outline: purple dashed 1px;*/
 }
+
+.third_section {
+    background-color: #E5E7EB;
+    padding: 200px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+.quote, .quotee {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    outline: red dashed 1px;
+}
+
+.quotee {
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+    outline: red dashed 1px;
+}
