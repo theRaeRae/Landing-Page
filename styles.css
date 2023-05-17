@@ -1,8 +1,11 @@
 .first_section {
     background-color: #1f2937;
-    padding: auto;
+    padding: 0 16px;
     margin: 0px;
     font-family: 'Courier New', Courier, monospace;
+    padding-left: 200px;
+    padding-right: 200px;
+    /*outline: red dashed 1px;*/
 }
 
 .header {
@@ -10,40 +13,57 @@
     color: white;
     font-size: 24px;
     justify-content: space-between;
-    padding: 8px;
+    padding: 50px;
     font-weight: bold;
+    align-items: center;
+    /*outline: red dashed 1px;*/
 }
 
 .first_box {
     color: #f9faf8;
     display: flex;
+    padding: 20px;
+    /*outline: red dashed 1px;*/
 }
 .left_box {
     padding-left: 50px;
     padding-right: 50px;
     margin: 20px;
+    /*outline: red dashed 1px;*/
 }
 
 button {
-    background-color: blue;
+    background-color: rgb(57, 57, 238);
     color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     width: 100px;
     border-radius: 10px;
+    /*outline: red dashed 1px;*/
 }
 
 .right_image_box {
-
+    /*outline: red dashed 1px;*/
 }
 
 img {
     width: 450px;
     height: 200px;
     display: flex;
+    /*outline: red dashed 1px;*/
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    /*outline: red dashed 1px;*/
 }
 
 .second_section {
     display: flex;
+    /*outline: red dashed 1px;*/
 }
